@@ -48,7 +48,8 @@ export default function Home() {
             alt="Luxury manicured lawn and home"
             className="w-full h-full object-cover object-center opacity-70"
             referrerPolicy="no-referrer"
-            loading="lazy"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-forest via-forest/40 to-transparent" />
         </motion.div>

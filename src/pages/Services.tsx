@@ -148,6 +148,7 @@ export default function Services() {
                     alt={service.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 ease-[0.22,1,0.36,1]"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                 </div>
                 <div className="text-sm font-serif text-accent mb-4 border-b border-forest/10 pb-4 flex justify-between items-center">

@@ -52,6 +52,8 @@ export default function Layout() {
               alt="Fresh Start Landscaping Co." 
               className="h-12 md:h-16 w-auto object-contain"
               referrerPolicy="no-referrer"
+              fetchPriority="high"
+              decoding="async"
             />
           </Link>
 
@@ -201,7 +203,15 @@ export default function Layout() {
                   <a href="mailto:services@freshstartlandscapingco.com" className="hover:text-accent transition-colors">services@freshstartlandscapingco.com</a>
                 </li>
                 <li className="pt-4 flex gap-4">
-                  <a href="#" className="hover:text-accent transition-colors"><Instagram className="w-5 h-5" /></a>
+                  <a 
+                    href="https://www.instagram.com/freshstartlandscapingco" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-accent transition-all duration-300 hover:drop-shadow-[0_0_12px_currentColor]"
+                    aria-label="Instagram"
+                  >
+                    <Instagram className="w-5 h-5" />
+                  </a>
                   <a href="#" className="hover:text-accent transition-colors"><Facebook className="w-5 h-5" /></a>
                 </li>
               </ul>
